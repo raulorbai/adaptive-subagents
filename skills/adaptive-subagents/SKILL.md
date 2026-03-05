@@ -130,16 +130,6 @@ If the user says any of the following, respect it for the current request:
 
 Log the override with `**Override:** {what the user requested}` and resume normal routing on the next request.
 
-## Routing Log
-
-After each routing decision, append a line to `routing.log` in the project root using the Bash tool:
-
-```
-echo "{model} | {agent_type or inline} | {estimated savings vs Opus, e.g. ~93%} | {brief task description}" >> routing.log
-```
-
-Log every `**Routing to**` and `**Staying on**` decision.
-
 ## Guardrails
 
 - Max 2 retries per subagent, then escalate or ask the user.
