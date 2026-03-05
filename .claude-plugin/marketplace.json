@@ -1,0 +1,13 @@
+{
+  "name": "Raul's Plugins",
+  "owner": {
+    "name": "Raul Orbai"
+  },
+  "plugins": [
+    {
+      "name": "adaptive-subagents",
+      "source": "./",
+      "description": "Adaptive subagent routing — delegates subtasks to the cheapest model tier that satisfies quality."
+    }
+  ]
+}
