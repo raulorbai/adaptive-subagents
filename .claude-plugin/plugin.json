@@ -1,7 +1,6 @@
 {
   "name": "adaptive-subagents",
   "version": "1.0.0",
-  "scope": "user",
   "description": "Optimize token cost by routing all actionable work to the cheapest model tier that satisfies quality. Delegates mechanical lookups to Haiku, implementation/comprehension to Sonnet, and architecture/security to Opus.",
   "author": {
     "name": "Raul Orbai"
